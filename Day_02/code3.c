@@ -1,4 +1,4 @@
-//Q1. Write a program to calculate the area and perimeter of a rectangle given its length and breadth.
+//Q3. Write a program to calculate the area and perimeter of a rectangle given its length and breadth.
 //input 1:- 5  10
 //output 1:- area=50,  perimeter=30
 
@@ -23,5 +23,6 @@ int main(){
     printf("perimeter = %.0f\n", perimeter);
        
     return 0;
+
 
 }
