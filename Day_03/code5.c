@@ -1,4 +1,4 @@
-//Write a program to convert temperature from celsius to fahrenheit.
+//Q5. Write a program to convert temperature from celsius to fahrenheit.
 //input 1:- 0
 //output 1:- fahrenheit=32
 
@@ -23,3 +23,4 @@ int main()
 
     return 0;
 }
+
