@@ -7,13 +7,14 @@ int main()
     printf("Enter the cost price and selling price: ");
     scanf("%f %f", &CP, &SP);
 
-    //
+    //calculates the result
     profit = SP-CP;
     loss = CP-SP;
 
     profit_percentage = (profit / CP) * 100;
     loss_percentage = (loss / CP) * 100;
 
+    //prints the result
     if(SP > CP)
     {
         printf("Profit\n");
@@ -32,4 +33,5 @@ int main()
     }
 
     return 0;
+
 }
