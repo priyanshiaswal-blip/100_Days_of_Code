@@ -12,7 +12,7 @@ int main()
     //calculates an prints the output
     
     if(units <= 100){
-        electricity_bill = 100 * 5;
+        electricity_bill = units * 5;
         printf("Bill: %d rupees", electricity_bill);
     } //units 0 to 100
     
@@ -32,4 +32,5 @@ int main()
     } //units above 300
 
     return 0;
+
 }
